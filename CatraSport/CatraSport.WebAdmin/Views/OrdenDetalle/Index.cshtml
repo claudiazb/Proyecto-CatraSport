@@ -32,21 +32,22 @@
 
 
 <p>
-    @Html.ActionLink("Nuevo Producto", "Crear")
+    @Html.ActionLink("Nuevo Producto", "Crear", new { id = Model.Id })
 </p>
 <table class="table">
     <tr>
+        <th></th>
         <th>
-            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+            Producto
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Fecha)
+            Cantidad
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Total)
+            Precio
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Activo)
+            Total
         </th>
         <th></th>
     </tr>

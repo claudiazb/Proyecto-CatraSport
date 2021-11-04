@@ -19,7 +19,7 @@ namespace CatraSport.BL
         [Display(Name = "Descripción")]
         [Required(ErrorMessage = "Ingrese la descripción")]
         [MinLength(3, ErrorMessage = "Ingrese minimo 3 caracteres")]
-        [MaxLength(20, ErrorMessage = "Ingrese un maximo de 20 caracteres")]
+        [MaxLength(20, ErrorMessage = "Ingrese un maximo de 80 caracteres")]
         public String Descripcion { get; set; }
 
 
